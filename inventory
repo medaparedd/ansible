@@ -1,6 +1,13 @@
 192.187.56.20
 192.187.56.30
 
+[localhost]
+localhost
+
+[localhost:vars]
+naam: "sudha"
+age: 25
+
 [web]
 34.228.197.160
 
