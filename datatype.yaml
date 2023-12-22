@@ -1,0 +1,25 @@
+- name: checking data types
+  hosts: localhost
+  vars: 
+    NAME: sudha
+    SKILLS: 
+    - DEVOPS
+    - SHELL
+    - ANSIBLE
+    - LINUX
+    EXPERIENCE:
+      DEVOPS: 5
+      AWS: 4
+      DOCKER: 6
+  tasks: 
+  - name: print key value pair
+    ansible.builtin.debug:
+      msg: "name: {{NAME}}"
+
+  - name: print list
+    ansible.builtin.debug:
+      msg: "SKILLS: {{SKILLS}}"
+
+  - name: print map
+    ansible.builtin.debug:
+      msg: "EXPERIENCE: {{EXPERIENCE}}"
