@@ -5,7 +5,7 @@
 localhost
 
 [localhost:vars]
-person="sudha"
+naam="sudha"
 age=25
 
 [web]
