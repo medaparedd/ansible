@@ -1,0 +1,7 @@
+- name: variables from PLAY level
+  hosts: localhost
+  
+  tasks: 
+  - name: check variables
+    ansible.builtin.debug:
+     msg: "hi, my name is {{person}}, i have {{age}} years old"
