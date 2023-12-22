@@ -5,8 +5,8 @@
 localhost
 
 [localhost:vars]
-naam: "sudha"
-age: 25
+naam="sudha"
+age=25
 
 [web]
 34.228.197.160
