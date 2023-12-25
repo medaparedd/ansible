@@ -3,7 +3,7 @@
   tasks: 
   - name: print persons
     ansible.builtin.debug:
-     name: {{item}}"
+     name: "{{item}}"
      state: present
     loop:
     - git
